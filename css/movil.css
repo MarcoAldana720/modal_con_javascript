@@ -1,0 +1,33 @@
+@media screen and (max-width: 480px){
+    section {
+        flex-direction: column;
+    }
+
+    .btn {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .container_left {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .container_right {
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px;
+    }
+
+    /* STYLE THE CONTAINER THE MODAL */
+    .container_modal {
+        padding: 20px;
+    }
+
+    .modal {
+        height: 85vh;
+    }
+}
